@@ -5,7 +5,7 @@ publish: "true"
 # Trust in the Turing Machine
 
 ## Preface
-This article is dedicated to my wife, whom I love very much, and to be honest, I simply cannot accept this world without her.
+This article is dedicated to my ex-wife, whom I love very much still. Thinking about her allows me to continue living my life.
 
 I recently took up drawing and created a portrait of her shortly after our wedding:
 
