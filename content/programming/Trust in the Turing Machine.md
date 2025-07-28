@@ -168,4 +168,4 @@ Then we will write our mathematicians once again:
 It would be appropriate to conclude here; this article contains enough formulations in the form of equations that allow for the continuation of logical reasoning about possible evolutionary leaps in science for a long time.
 
 Thank you for your attention!
-You can read the original in by Blog here
+You can read the [[Доверие к Машине Тьюринга|original in russian]]
