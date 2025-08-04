@@ -3,13 +3,14 @@ publish: "true"
 ---
 
 # Trust in the Turing Machine
+current article in it's final form now [living](https://medium.com/@kiryl.ye/trust-into-turing-machine-082a9daa9ed9) on Medium.
 
 ## Preface
 This article is dedicated to my ex-wife, whom I love very much still. Thinking about her allows me to continue living my life.
 
 I recently took up drawing and created a portrait of her shortly after our wedding:
 
-![mywife.jpg](./img/mywife.jpg)
+![mywife.jpg](mywife.jpg)
 My wife "N"
 
 ## How is _Human_ related to _Mathematics_
@@ -168,4 +169,4 @@ Then we will write our mathematicians once again:
 It would be appropriate to conclude here; this article contains enough formulations in the form of equations that allow for the continuation of logical reasoning about possible evolutionary leaps in science for a long time.
 
 Thank you for your attention!
-You can read the [[Доверие к Машине Тьюринга|original in russian]]
+You can read the [[rus|original in russian]]
