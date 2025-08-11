@@ -17,4 +17,44 @@ A new version of Java is released every six months (“feature releases”). The
 
 The changes made to the LTS versions are deliberately small in scope and are “housekeeping updates.” Apart from security and small bug fixes, only a minimal set of changes are permitted.
 One other necessary change is that the build scripts for macOS needed to be updated to work with a recent version of Apple’s Xcode tool so that they will continue to work on new releases of Apple’s operating system.
+
 ## Enhanced type inference (var keyword)
+_Type inference_ — feature of the source code compiler enables the compiler to work out some of the type information in programs automatically.
+> The aim of type inference is to reduce boilerplate content, remove duplication, and allow for more concise and readable code.
+
+### Generics
+This trend started with Java 5, when generic methods were introduced:
+```java
+List<Integer> empty = Collections.<Integer>emptyList();
+```
+The generic type parameter can be omitted on the right-hand side, like so:
+```java
+List<Integer> empty = Collections.emptyList();
+```
+
+### Diamond Syntax
+Before Java 7, it was common to see code like this:
+```java
+Map<Integer, Map<String, String>> usersLists = new HashMap<Integer, Map<String, String>>();
+```
+So, from Java 7 onward, we can write:
+```java 
+Map<Integer, Map<String, String>> usersLists = new HashMap<>();
+```
+> Because the shortened type declaration looks like a diamond, this form is called “diamond syntax.”
+
+### Type inference in Labmdas
+In _Java 8_, more type inference was added to support the introduction of lambda expressions, like this example where the type inference algorithm can conclude that the type of s is a `String`:
+```java 
+Function<String, Integer> lengthFn = s -> s.length();
+```
+
+### Local Variable Type Inference
+
+In modern Java, type inference has been taken one step further, with the arrival of _Local Variable Type Inference_ (LVTI), otherwise known as `var`. This feature was added in Java 10 and allows the developer to infer the types of _variables_, instead of the types of _values_, like this:
+```java 
+var names = new ArrayList<String>();
+```
+This is implemented by making var a reserved, “magic” type name rather than a language keyword. Developers can still in theory use var as the name of a variable, method, or package.
+
+>An important side effect of using var appropriately is that the __domain__ of your code is once more front and center (as opposed to the type information). But with great power comes great responsibility! Make sure that you name your variables carefully to help future readers of your code.
