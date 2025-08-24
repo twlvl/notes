@@ -34,10 +34,20 @@
  - [x] Connecting angular with Eden
 	 - [x] read:  https://deepwiki.com/search/can-you-please-provide-a-guide_e2a01cbb-82b5-454f-b0c1-f0931279471e
 	 - [x] implement
-- [ ] uploading ebook
-	- [ ] - how elysia upload files: https://deepwiki.com/search/how-file-upload-is-working-und_9984eed1-16d6-445e-8242-b57359d7b62a
-	- [ ] - in case of streaming: https://deepwiki.com/search/how-file-upload-is-working-und_9984eed1-16d6-445e-8242-b57359d7b62a
-	- [ ] - general info: https://deepwiki.com/elysiajs/elysia/2-request-pipeline#lifecycle-hooks
+- [x] uploading ebook
+	- [x] - how elysia upload files: https://deepwiki.com/search/how-file-upload-is-working-und_9984eed1-16d6-445e-8242-b57359d7b62a
+	- [x] - in case of streaming: https://deepwiki.com/search/how-file-upload-is-working-und_9984eed1-16d6-445e-8242-b57359d7b62a
+	- [x] - general info: https://deepwiki.com/elysiajs/elysia/2-request-pipeline#lifecycle-hooks
+- [x] Add Book view
+	- [x] - on the right side add view Ebook 
+	- [x] - show an example ebook there
+- [ ] Add toolbar, integrate with Epub.js
+	- [ ] Library button
+	- [ ] Next/Previ pages
+
+
+
+
 - [ ] google-auth and better-auth
 	- [ ] better-auth general: https://deepwiki.com/better-auth/better-auth/2.4-security-and-middleware
 	 - [ ] config: https://deepwiki.com/search/how-can-i-set-it-up-to-login-w_62ec184b-52cc-477d-9084-9578383d0cb8

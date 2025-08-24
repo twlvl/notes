@@ -13,3 +13,9 @@ As well as this document there is two more to check-out to build a whole picture
 - [EPUB Accessibility](https://www.w3.org/TR/epub-a11y-11/#) [epub-a11y-11](https://www.w3.org/TR/epub-33/#bib-epub-a11y-11 "EPUB Accessibility 1.1") — defines accessibility conformance and discovery requirements for EPUB publications.
 
 ## Organization
+
+
+
+## EPUB content identifiers
+https://idpf.org/epub/linking/cfi/
+
