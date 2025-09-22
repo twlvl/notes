@@ -2,6 +2,7 @@
 publish: "true"
 cover: ./img/squid.jpeg
 ---
+# Игра в кальмара
 
 ![[./img/squid.jpeg]]
 ## Чтение евангелие
