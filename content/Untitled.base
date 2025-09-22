@@ -12,3 +12,6 @@ views:
     sort:
       - property: file.size
         direction: ASC
+  - type: cards
+    name: View
+    image: note.cover
